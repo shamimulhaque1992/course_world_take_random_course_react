@@ -13,8 +13,8 @@
 
 # misc
 .DS_Store
-.eslintrc
-.babelrc
+/.eslintrc
+/.babelrc
 .env.local
 .env.development.local
 .env.test.local
