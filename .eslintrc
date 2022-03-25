@@ -14,9 +14,7 @@
   },
   "parserOptions": {
     "ecmaVersion": 8,
-    "presets": [
-      "@babel/preset-react"
-    ],
+    "presets": ["@babel/preset-react"],
     "requireConfigFile": false,
     "sourceType": "module",
     "ecmaFeatures": {
@@ -31,6 +29,9 @@
   },
   "rules": {
     "no-unused-vars": "off",
+    "react/self-closing-comp": "off",
+    "arrow-body-style": "off",
+    "react/function-component-definition": "off",
     "react/button-has-type": "off",
     "no-empty-pattern": "off",
     "react/destructuring-assignment": "off",
@@ -45,10 +46,7 @@
     "react/jsx-filename-extension": [
       1,
       {
-        "extensions": [
-          ".js",
-          ".jsx"
-        ]
+        "extensions": [".js", ".jsx"]
       }
     ],
     "prettier/prettier": [
@@ -63,9 +61,5 @@
       }
     ]
   },
-  "plugins": [
-    "prettier",
-    "react",
-    "react-hooks"
-  ]
+  "plugins": ["prettier", "react", "react-hooks"]
 }

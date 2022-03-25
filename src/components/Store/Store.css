@@ -1,0 +1,15 @@
+.store-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.course-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 45px;
+  margin: 100px 50px;
+}
+@media screen and (max-width: 500px) {
+  .course-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
