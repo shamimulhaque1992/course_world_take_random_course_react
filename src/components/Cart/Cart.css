@@ -1,4 +1,76 @@
+/* cart css */
 .cart {
   position: sticky;
   top: 0;
+  padding: 30px 20px;
+  /* border: 1px solid rgb(109, 70, 70); */
+  box-shadow: -2px -2px 16px 7px rgb(223 220 214);
+  border-radius: 10px;
+}
+.cart-details {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 7px;
+}
+.cart-details img {
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+/* cart button */
+
+.cart-btn {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.delete-btn {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  margin: 7px;
+  cursor: pointer;
+}
+.delete-btn:hover {
+  background-color: rgb(241, 212, 212);
+  color: rgb(245, 48, 48);
+  
+}
+/* cart button ehhect */
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.neu-btn {
+  margin: 10px;
+  width: 200px;
+  height: 50px;
+  font-family: "Raleway";
+  font-size: large;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.25),
+    -8px -8px 12px rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+
+.neu-btn:hover {
+  box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.25) inset,
+    -8px -8px 12px rgba(255, 255, 255, 0.3) inset;
+}
+
+@media screen and (max-width: 500px) {
+  .cart-btn {
+    flex-direction: column;
+  }
 }

@@ -25,7 +25,7 @@ const Course = ({ course, clickCourseHandler }) => {
             </div>
             <button className="btn-cart" onClick={() => clickCourseHandler(course)}>
                 <p className="btn-text">Add to Cart</p>
-                <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
+                <FontAwesomeIcon icon={faShoppingCart} />
             </button>
         </div>
     );

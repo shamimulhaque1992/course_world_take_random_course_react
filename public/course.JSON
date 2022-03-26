@@ -1,134 +1,134 @@
 [
   {
-    "id": "1",
+    "id": 1,
     "category": "Web Course",
-    "name": "React-Crash-Course",
+    "name": "React.js-Crash-Course",
     "organization": "CourseWorld",
     "price": 420,
     "stock": 20,
     "ratings": 4,
     "ratingsCount": 3725,
-    "img": "https://img.freepik.com/free-vector/vinyl-banners-canvas-posters-hanging-with-ropes_107791-10786.jpg?w=996&t=st=1648232734~exp=1648233334~hmac=7b1561fb24876120f0c02cbea42428e8bde01f907634f6ae092f6d0f91a4afc4"
+    "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--3zWuwYa3--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pdib9r9rk5j1m7oala1p.png"
   },
   {
-    "id": "2",
+    "id": 2,
     "category": "Web Course",
-    "name": "Node-Crash-Course",
+    "name": "Node.js-Crash-Course",
     "organization": "CourseWorld",
     "price": 420,
     "stock": 20,
     "ratings": 4,
     "ratingsCount": 3725,
-    "img": "https://img.freepik.com/free-vector/vinyl-banners-canvas-posters-hanging-with-ropes_107791-10786.jpg?w=996&t=st=1648232734~exp=1648233334~hmac=7b1561fb24876120f0c02cbea42428e8bde01f907634f6ae092f6d0f91a4afc4"
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png"
   },
   {
-    "id": "3",
+    "id": 3,
     "category": "Web Course",
-    "name": "React-Crash-Course",
+    "name": "Vue.js-Crash-Course",
     "organization": "CourseWorld",
     "price": 420,
     "stock": 20,
     "ratings": 4,
     "ratingsCount": 3725,
-    "img": "https://img.freepik.com/free-vector/vinyl-banners-canvas-posters-hanging-with-ropes_107791-10786.jpg?w=996&t=st=1648232734~exp=1648233334~hmac=7b1561fb24876120f0c02cbea42428e8bde01f907634f6ae092f6d0f91a4afc4"
+    "img": "https://positivethinking.tech/wp-content/uploads/2021/01/Logo-Vuejs.png"
   },
   {
-    "id": "4",
+    "id": 4,
     "category": "Web Course",
-    "name": "React-Crash-Course",
+    "name": "Angular.js-Crash-Course",
     "organization": "CourseWorld",
     "price": 420,
     "stock": 20,
     "ratings": 4,
     "ratingsCount": 3725,
-    "img": "https://img.freepik.com/free-vector/vinyl-banners-canvas-posters-hanging-with-ropes_107791-10786.jpg?w=996&t=st=1648232734~exp=1648233334~hmac=7b1561fb24876120f0c02cbea42428e8bde01f907634f6ae092f6d0f91a4afc4"
+    "img": "https://acquven.com/blog/02/images/angular.jpg"
   },
   {
-    "id": "5",
+    "id": 5,
     "category": "Web Course",
-    "name": "React-Crash-Course",
+    "name": "Next.js-Crash-Course",
     "organization": "CourseWorld",
     "price": 420,
     "stock": 20,
     "ratings": 4,
     "ratingsCount": 3725,
-    "img": "https://img.freepik.com/free-vector/vinyl-banners-canvas-posters-hanging-with-ropes_107791-10786.jpg?w=996&t=st=1648232734~exp=1648233334~hmac=7b1561fb24876120f0c02cbea42428e8bde01f907634f6ae092f6d0f91a4afc4"
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1200px-Nextjs-logo.svg.png"
   },
   {
-    "id": "6",
+    "id": 6,
     "category": "Web Course",
-    "name": "React-Crash-Course",
+    "name": "Nest.js-Crash-Course",
     "organization": "CourseWorld",
     "price": 420,
     "stock": 20,
     "ratings": 4,
     "ratingsCount": 3725,
-    "img": "https://img.freepik.com/free-vector/vinyl-banners-canvas-posters-hanging-with-ropes_107791-10786.jpg?w=996&t=st=1648232734~exp=1648233334~hmac=7b1561fb24876120f0c02cbea42428e8bde01f907634f6ae092f6d0f91a4afc4"
+    "img": "https://camo.githubusercontent.com/c704e8013883cc3a04c7657e656fe30be5b188145d759a6aaff441658c5ffae0/68747470733a2f2f6e6573746a732e636f6d2f696d672f6c6f676f5f746578742e737667"
   },
   {
-    "id": "7",
+    "id": 7,
     "category": "Web Course",
-    "name": "React-Crash-Course",
+    "name": "Ember.js-Crash-Course",
     "organization": "CourseWorld",
     "price": 420,
     "stock": 20,
     "ratings": 4,
     "ratingsCount": 3725,
-    "img": "https://img.freepik.com/free-vector/vinyl-banners-canvas-posters-hanging-with-ropes_107791-10786.jpg?w=996&t=st=1648232734~exp=1648233334~hmac=7b1561fb24876120f0c02cbea42428e8bde01f907634f6ae092f6d0f91a4afc4"
+    "img": "https://upload.wikimedia.org/wikipedia/en/6/69/Ember.js_Logo_and_Mascot.png"
   },
   {
-    "id": "8",
+    "id": 8,
     "category": "Web Course",
-    "name": "React-Crash-Course",
+    "name": "Meteor.js-Crash-Course",
     "organization": "CourseWorld",
     "price": 420,
     "stock": 20,
     "ratings": 4,
     "ratingsCount": 3725,
-    "img": "https://img.freepik.com/free-vector/vinyl-banners-canvas-posters-hanging-with-ropes_107791-10786.jpg?w=996&t=st=1648232734~exp=1648233334~hmac=7b1561fb24876120f0c02cbea42428e8bde01f907634f6ae092f6d0f91a4afc4"
+    "img": "https://v6i7z7i8.rocketcdn.me/wp-content/uploads/2016/04/meteor-1.png"
   },
   {
-    "id": "9",
+    "id": 9,
     "category": "Web Course",
-    "name": "React-Crash-Course",
+    "name": "Express.js-Crash-Course",
     "organization": "CourseWorld",
     "price": 420,
     "stock": 20,
     "ratings": 4,
     "ratingsCount": 3725,
-    "img": "https://img.freepik.com/free-vector/vinyl-banners-canvas-posters-hanging-with-ropes_107791-10786.jpg?w=996&t=st=1648232734~exp=1648233334~hmac=7b1561fb24876120f0c02cbea42428e8bde01f907634f6ae092f6d0f91a4afc4"
+    "img": "https://www.bairesdev.com/wp-content/uploads/2021/07/Expressjs.svg"
   },
   {
-    "id": "10",
+    "id": 10,
     "category": "Web Course",
-    "name": "React-Crash-Course",
+    "name": "Polymer.js-Crash-Course",
     "organization": "CourseWorld",
     "price": 420,
     "stock": 20,
     "ratings": 4,
     "ratingsCount": 3725,
-    "img": "https://img.freepik.com/free-vector/vinyl-banners-canvas-posters-hanging-with-ropes_107791-10786.jpg?w=996&t=st=1648232734~exp=1648233334~hmac=7b1561fb24876120f0c02cbea42428e8bde01f907634f6ae092f6d0f91a4afc4"
+    "img": "https://miro.medium.com/max/1400/1*wtCI-KjMRFbhfqpkY4roIg.png"
   },
   {
-    "id": "11",
+    "id": 11,
     "category": "Web Course",
-    "name": "React-Crash-Course",
+    "name": "Aurelia.js-Crash-Course",
     "organization": "CourseWorld",
     "price": 420,
     "stock": 20,
     "ratings": 4,
     "ratingsCount": 3725,
-    "img": "https://img.freepik.com/free-vector/vinyl-banners-canvas-posters-hanging-with-ropes_107791-10786.jpg?w=996&t=st=1648232734~exp=1648233334~hmac=7b1561fb24876120f0c02cbea42428e8bde01f907634f6ae092f6d0f91a4afc4"
+    "img": "https://qph.fs.quoracdn.net/main-qimg-fa5b4f9665e86388bde7b4cb9ac095b4"
   },
   {
-    "id": "12",
+    "id": 12,
     "category": "Web Course",
-    "name": "React-Crash-Course",
+    "name": "Backbone.js-Crash-Course",
     "organization": "CourseWorld",
     "price": 420,
     "stock": 20,
     "ratings": 4,
     "ratingsCount": 3725,
-    "img": "https://img.freepik.com/free-vector/vinyl-banners-canvas-posters-hanging-with-ropes_107791-10786.jpg?w=996&t=st=1648232734~exp=1648233334~hmac=7b1561fb24876120f0c02cbea42428e8bde01f907634f6ae092f6d0f91a4afc4"
+    "img": "https://www.affde.com/uploads/article/86591/le76ZTYFe7BfSPbj.png"
   }
 ]
