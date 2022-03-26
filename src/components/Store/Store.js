@@ -11,21 +11,43 @@ const Store = () => {
             .then((response) => response.json())
             .then((data) => setCourse(data));
     }, []);
-    const clickHandler = (course) => {
+    const clickCourseHandler = (course) => {
         // console.log(course);
         const newCart = [...cart, course];
+        // console.log(newCart);
         setCart(newCart);
+        // console.log(cart);
+    };
+    const clickRandomHandler = (carts) => {
+        // console.log(carts);
+
+        const item = carts[Math.floor(Math.random() * carts.length)];
+        const newCart = [item];
+        // console.log(newCart);
+        setCart(newCart);
+    };
+    const clickAgainHandler = (carts) => {
+        // console.log(carts);
+        setCart([]);
         // console.log(cart);
     };
     return (
         <div className="store-container">
             <div className="course-container">
                 {courses.map((course) => (
-                    <Course key={course.id} course={course} clickHandler={clickHandler} />
+                    <Course
+                        key={course.id}
+                        course={course}
+                        clickCourseHandler={clickCourseHandler}
+                    />
                 ))}
             </div>
             <div className="cart-container">
-                <Cart cart={cart} />
+                <Cart
+                    cart={cart}
+                    clickAgainHandler={clickAgainHandler}
+                    clickRandomHandler={clickRandomHandler}
+                />
             </div>
         </div>
     );

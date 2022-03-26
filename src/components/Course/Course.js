@@ -1,9 +1,9 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Course.css';
 
-const Course = ({ course, clickHandler }) => {
+const Course = ({ course, clickCourseHandler }) => {
     const { img, name, organization, price, ratings, stock, category } = course;
 
     return (
@@ -23,7 +23,7 @@ const Course = ({ course, clickHandler }) => {
                     <small>Stock: {stock} more available</small>
                 </p>
             </div>
-            <button className="btn-cart" onClick={() => clickHandler(course)}>
+            <button className="btn-cart" onClick={() => clickCourseHandler(course)}>
                 <p className="btn-text">Add to Cart</p>
                 <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
             </button>
