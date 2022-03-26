@@ -12,12 +12,20 @@ const Store = () => {
             .then((response) => response.json())
             .then((data) => setCourse(data));
     }, []);
+
     // showing the cours
+
     const clickCourseHandler = (course) => {
-        // console.log(course);
         const newCart = [...cart, course];
         // console.log(newCart);
-        setCart(newCart);
+        if (newCart.length > 4) {
+            alert('You cant select more than 4 course at a time');
+        } else {
+            setCart(newCart);
+        }
+
+        // console.log(course);
+
         // console.log(cart);
     };
     // showing the random course
@@ -26,7 +34,11 @@ const Store = () => {
             const item = carts[Math.floor(Math.random() * carts.length)];
             const newCart = [item];
             // console.log(newCart);
+            // console.log(newCart);
             setCart(newCart);
+            setTimeout(() => {
+                alert(`You can start your journey by ${newCart[0].name}`);
+            }, 800);
         }
         // console.log(carts);
     };

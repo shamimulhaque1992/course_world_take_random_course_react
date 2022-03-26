@@ -29,6 +29,7 @@
   },
   "rules": {
     "no-unused-vars": "off",
+    "no-alert": "off",
     "react/self-closing-comp": "off",
     "arrow-body-style": "off",
     "react/function-component-definition": "off",
